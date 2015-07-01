@@ -48,6 +48,7 @@ $sb-pseudo-states: true !default;
 @mixin sassy-button( $gradient-style: $sb-gradient-style, $border-radius: $sb-border-radius, $font-size: $sb-font-size, $first-color: $sb-base-color, $second-color: $sb-second-color, $text-color: $sb-text-color, $text-style: $sb-text-style, $auto-states: $sb-pseudo-states ) {
   @include sassy-button-structure( $border-radius, $font-size, $sb-padding );
   @include sassy-button-gradient( $gradient-style, $first-color, $second-color, $text-color, $text-style, $auto-states );
+  @content;
 }
 
 // Structure for a sassy button
