@@ -1,0 +1,28 @@
+{
+  "name": "bower-sassy-buttons",
+  "version": "1.0.0",
+  "homepage": "https://github.com/noderat/bower-sassy-buttons",
+  "authors": [
+    "Chris Coggburn <chris@pixelandline.com>",
+    "Jared Hardy <jared@jaredhardy.com>"
+  ],
+  "description": "Based on the original Compass Sassy Buttons Project by Jared Hardy (@jaredhardy), but without Compass as a dependency and converted to the SCSS syntax.",
+  "main": "scss/sassy-buttons.scss",
+  "keywords": [
+    "sass",
+    "scss",
+    "buttons",
+    "css",
+    "html",
+    "buttons",
+    "ui"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
