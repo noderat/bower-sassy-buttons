@@ -57,4 +57,5 @@ $sb-pseudo-states: true !default;
   padding: $padding;
   @include sassy-button-default-structure;
   border-radius: $border-radius;
+  @content;
 }
